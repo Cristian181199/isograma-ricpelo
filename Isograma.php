@@ -7,4 +7,6 @@
 function esIsograma($s): bool
 {
     $s = str_replace(['-', ' '], '', $s);
+
+    $s = strtolower($s);
 }
