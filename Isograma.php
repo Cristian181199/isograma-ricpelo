@@ -9,4 +9,6 @@ function esIsograma($s): bool
     $s = str_replace(['-', ' '], '', $s);
 
     $s = strtolower($s);
+
+    return count(array_unique(mb_str_split($s, 1))) == mb_strlen($s);
 }
