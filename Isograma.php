@@ -4,10 +4,7 @@
  * Esto es sólo un ESQUELETO para el ejercicio de los "isogramas".
  */
 
-function esIsograma($s)
+function esIsograma($s): bool
 {
-    //
-    // TU CÓDIGO VA AQUÍ
-    //
+    $s = str_replace(['-', ' '], '', $s);
 }
-
