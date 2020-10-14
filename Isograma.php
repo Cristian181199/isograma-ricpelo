@@ -1,9 +1,17 @@
 <?php
 
-/*
- * Esto es sólo un ESQUELETO para el ejercicio de los "isogramas".
+/**
+ * @author Cristian Quintero García
+ * @copyright Copyright {c} 2020 Cristian Quintero
+ * @license https://www.gnu.org/licenses/gpl-3.0.txt
  */
 
+/**
+ * esIsograma
+ *
+ * @param  mixed $s
+ * @return bool
+ */
 function esIsograma($s): bool
 {
     $s = str_replace(['-', ' '], '', $s);
