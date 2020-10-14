@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @author Cristian Quintero García
+ * @author Cristian Quintero García <cristian181199@gmail.com>
  * @copyright Copyright {c} 2020 Cristian Quintero
  * @license https://www.gnu.org/licenses/gpl-3.0.txt
  */
