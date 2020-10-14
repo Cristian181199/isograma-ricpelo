@@ -9,7 +9,7 @@
 /**
  * esIsograma
  *
- * @param  mixed $s
+ * @param  string $s
  * @return bool
  */
 function esIsograma($s): bool
