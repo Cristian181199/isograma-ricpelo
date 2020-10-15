@@ -14,9 +14,7 @@
  */
 function esIsograma($s): bool
 {
-    $s = str_replace(['-', ' '], '', $s);
+    $s = mb_ereg_replace('[- ]', '', $s = mb_strtolower($s));
 
-    $s = strtolower($s);
-
-    return count(array_unique(mb_str_split($s, 1))) == mb_strlen($s);
+    return count(array_unique(mb_str_split($s))) == mb_strlen($s);
 }
